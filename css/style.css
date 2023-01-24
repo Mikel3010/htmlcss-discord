@@ -1,0 +1,79 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    background-color: rgb(37, 94, 233);
+    color: white;
+}
+.header-banner{
+    background-image: url(../img/jumbo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-nav{
+    display: flex;
+    max-width: 80%;
+    margin: auto;
+    height: 80px;
+    align-items: center; 
+}
+.links{
+    width: 60%;
+}
+.logo,.login{
+    width: 20%;
+}
+.links ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.login a{
+    color: black;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+.header-banner div{
+    text-align: center;
+    width: 50%;
+}
+
+.mac{
+    background-color: white;
+    color: black;
+    margin-right: 30px;
+    
+}
+.discord{
+    background-color: black;
+}
+.mac,.discord{
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+}
+h1{
+    padding-bottom: 30px;
+    font-size: 60px;
+}
+.header-banner div p{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+/* main */
