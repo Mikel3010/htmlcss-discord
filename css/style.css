@@ -124,3 +124,75 @@ h3{
 section:nth-child(2n+2){
     background-color: rgb(246, 246, 246);
 }
+/* footer */
+footer{
+    background-color: black;
+    padding-top: 50px;
+}
+footer .container-footer {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+
+}
+.container-footer{
+    padding-bottom: 30px;
+}
+.double{
+    width: 30%;
+    
+}
+.main-single{
+    display: flex;
+    width: 70%;
+}
+.single{
+    width: calc(100% /4);
+    
+}
+
+h4{
+    color: rgb(114, 137, 218);
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.blu{
+    color: rgb(114, 137, 218);
+}
+.single ul li{
+    padding-top: 10px;
+}
+
+.footer-lb{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+    border-top: 3px solid rgb(79, 93, 140);
+    padding-bottom: 50px;
+}
+
+.registrati a{
+    background-color: rgb(114, 137, 218);
+    padding: 5px 10px;
+    border-radius: 15px;
+
+}
+
+select{
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+.simbol{
+    padding-top: 10px;
+}
+
+i{
+    color: white;
+    padding: 10px;
+}
